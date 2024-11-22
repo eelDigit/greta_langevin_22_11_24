@@ -1,0 +1,52 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    width: 50vh;
+}
+
+form {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    width: 40vh;
+}
+
+input,
+select {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px aqua;
+
+
+}
+
+.input_container {
+    display: contents;
+    padding-bottom: 20px;
+}
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form>.info {
+    width: 100%;
+    height: 50vh;
+    background: rgb(161, 46, 151);
+    border: 2px solid black;
+    margin-top: 100px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+}

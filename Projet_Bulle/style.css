@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(176, 176, 234);
+    min-height: 100vh;
+    overflow: hidden;
+    cursor: crosshair;
+}
+
+h3 {
+    font-size: 10rem;
+    text-align: center;
+    margin-top: 20px;
+    color: rgba(8, 7, 7, 0.566)
+}
+
+.bubble {
+    position: absolute;
+    border-radius: 300px;
+    background: rgb(161, 99, 18);
+
+    filter: hue-rotate(0deg);
+}
+
+.bubble {
+    opacity: 0;
+    animation: anim 8s forwards;
+}
+
+
+
+/* _____[animation]______________________ */
+
+@keyframes anim {
+    to {
+        top: -250px;
+        opacity: 1;
+        filter: hue-rotate(720deg);
+    }
+}
